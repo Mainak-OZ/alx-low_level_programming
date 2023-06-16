@@ -5,25 +5,22 @@
 /**
  * main - Prints if number is positive, zero or negative
  * Return: Always (Success)
- */
+ * /
 
-int main() 
+int main(void)
 {
 	int n;
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	if (n > 0)
-	{
-	printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-	printf("%d is zero\n", n);
-	}
-	else
-	{
-	printf("%d is negative\n, n");
-	}
-	return 0;
+
+    srand(time(NULL));
+    n = rand() % 201 - 100;  // Random number between -100 and 100
+
+     if (n > 0) {
+        printf("The number %d is positive.\n", n);
+    } else if (n < 0) {
+        printf("The number %d is negative.\n", n);
+    } else {
+        printf("The number is zero.\n");
+    }
+
+    return (0);
 }
