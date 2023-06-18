@@ -4,7 +4,7 @@
  * main - print 0 to 9
  * Return: 0 (Success)
  */
-int main()
+int main(0)
 {
 	int a;
 
