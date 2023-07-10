@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- *
+ *_puts - prints a string
  * Return: Always 0 (Success)
  */
 
