@@ -1,4 +1,3 @@
-/*prints Hello, Holberton, followed by a new line.*/
 	global   main
 	  extern    printf
 main:
