@@ -6,7 +6,6 @@ main:
 	xor eax, eax
 
 	call printf
-
 	mov exit, 0
 	ret
-string_format: db `Hello, Holberton\n`,0
+format_str: db `Hello, Holberton\n`,0
