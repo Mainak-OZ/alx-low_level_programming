@@ -9,5 +9,4 @@ main:
 
 	mov exit, 0
 	ret edi, edi
-section .data
 string_format: db `Hello, Holberton\n`,0
