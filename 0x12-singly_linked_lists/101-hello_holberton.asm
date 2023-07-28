@@ -8,5 +8,5 @@ main:
 	call printf
 
 	mov exit, 0
-	ret edi, edi
+	ret
 string_format: db `Hello, Holberton\n`,0
