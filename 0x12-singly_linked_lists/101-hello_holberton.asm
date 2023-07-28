@@ -2,10 +2,10 @@ global main
 extern printf
 
 main:
-	mov edi, format_str
+	mov edi, format
 	xor eax, eax
 
 	call printf
 	mov exit, 0
 	ret
-format_str: db `Hello, Holberton\n`,0
+format: db `Hello, Holberton\n`,0
